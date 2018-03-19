@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+for i in 1...20 {
+    var book = Library.checkoutBook(reader: "reader#\(i)")
+    if (book != nil) {
+        Library.returnBook(book: book!)
+    }
+}
 
+print("Complete")
+
+Library.printReport()

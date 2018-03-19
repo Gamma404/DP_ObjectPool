@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		182A022E205F8B65000AA4AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A022D205F8B65000AA4AC /* main.swift */; };
+		3C89361EAFBDDA2392EF24FD /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8933FE5286C0488A5A56DD /* Pool.swift */; };
+		3C893D90DD55DDAAC8C45EBF /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C893957FCD04856EF5D24CC /* Library.swift */; };
+		3C893F95B762D56519AB44AB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8934CF02E4949EDC1A0C7C /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		182A022A205F8B65000AA4AC /* DP_ObjectPool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DP_ObjectPool; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A022D205F8B65000AA4AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3C8933FE5286C0488A5A56DD /* Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		3C8934CF02E4949EDC1A0C7C /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3C893957FCD04856EF5D24CC /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				182A022D205F8B65000AA4AC /* main.swift */,
+				3C8934CF02E4949EDC1A0C7C /* Book.swift */,
+				3C8933FE5286C0488A5A56DD /* Pool.swift */,
+				3C893957FCD04856EF5D24CC /* Library.swift */,
 			);
 			path = DP_ObjectPool;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				182A022E205F8B65000AA4AC /* main.swift in Sources */,
+				3C893F95B762D56519AB44AB /* Book.swift in Sources */,
+				3C89361EAFBDDA2392EF24FD /* Pool.swift in Sources */,
+				3C893D90DD55DDAAC8C45EBF /* Library.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
